@@ -169,8 +169,9 @@ public with sharing class VariablesDataTypesOperators {
      * @param dt The date to check.
      * @return True if the date is in the past, False otherwise.
      */
-    public static Boolean isDateInPast(Date dt) {
-        return null; // Replace null with the variable you used to store the result
+    public static Boolean isDateInPast(Date dt) { 
+        
+        return datetocheck < currentdate; // Replace null with the variable you used to store the result
     }
 
     /**
