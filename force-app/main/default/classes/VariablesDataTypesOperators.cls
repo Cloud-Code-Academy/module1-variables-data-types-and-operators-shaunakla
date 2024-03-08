@@ -222,7 +222,7 @@ public with sharing class VariablesDataTypesOperators {
          Integer c = 4;
          
          Double averageOfThreeNumbers(a, b, c);
-         
+
         return null; // Replace null with the variable you used to store the result
     }
 
@@ -238,7 +238,8 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Integer adjustOrderOfOperations1(Integer a, Integer b, Integer c) {
         // Add parentheses around the addition operation so that it is performed before multiplication
-        Integer result = a + b * c;
+        //Integer result = a + b * c;
+        Integer result (a+b)*c;
 
         // Return the result
         return null; // Replace null with the variable you used to store the result
