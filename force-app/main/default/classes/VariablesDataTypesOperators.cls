@@ -273,8 +273,9 @@ public with sharing class VariablesDataTypesOperators {
      * @return The result of the adjusted arithmetic expression.
      */
     public static Double complexOrderOfOperations(Integer a, Integer b, Integer c, Integer d, Integer e) {
+        Double result (a * b - c)/ Double (d +e);
         // Add parentheses around the multiplication and subtraction operations so that they are performed before division and addition
-        Double result = a * b - c / (Double) d + e;
+        //Double result = a * b - c / (Double) d + e;
 
         return null; // Replace null with the variable you used to store the result
     }
@@ -290,6 +291,7 @@ public with sharing class VariablesDataTypesOperators {
         final Double SUBTRACT_FACTOR = 32.0;
         final Double MULTIPLY_FACTOR = 5.0;
         final Double DIVIDE_FACTOR = 9.0;
+    
     
         return null; // Replace null with the variable you used to store the result
     }
@@ -323,9 +325,14 @@ public with sharing class VariablesDataTypesOperators {
      * @param numberOfHours The number of hours worked in a week.
      * @return A Decimal representing the weekly paycheck.
      */
-    public static Decimal calculateWeeklyPaycheck(Decimal hourlyRate, Double numberOfHours) {
+    public static Decimal calculateWeeklyPaycheck(Decimal hourlyRate, Double numberOfHours){
+        Integer hourlyRate = 6;
+        Integer numberOfHours = 4;
+
+        double (hourlyRate * numberOfHours);
+
         // Calculate the weekly paycheck using the formula: rate multiplied by hours
-        return null; // Replace null with the variable you used to store the result
+        return calculateWeeklyPaycheck( , numberOfHours)null; // Replace null with the variable you used to store the result
     }
 
     /**
