@@ -12,3 +12,8 @@ Integer a = 1;
 Integer b = 2;
 System.debug (a + b);
 
+Integer c = 3;
+Integer d = 4;
+System.debug(c+d);
+
+

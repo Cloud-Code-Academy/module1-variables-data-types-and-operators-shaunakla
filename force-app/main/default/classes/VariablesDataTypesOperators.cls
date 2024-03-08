@@ -186,7 +186,7 @@ public with sharing class VariablesDataTypesOperators {
     public static Boolean isDateTodayOrFuture(Date dt) {
 
         return datetocheck > currentdate; // Replace null with the variable you used to store the result
-        
+
     }
 
     /**
@@ -199,8 +199,10 @@ public with sharing class VariablesDataTypesOperators {
      * @return The number of milliseconds equivalent to the given number of minutes.
      */
     public static Integer convertMinutesToMilliseconds(Integer minutes) {
+
         Integer MILLISECONDS_PER_MINUTE = null; // Make this value a constant
         Integer milliseconds;
+        Integer conevertMinutesToMillisecond(3);
         return null; // Replace null with the variable you used to store the result
     }    
 
@@ -214,7 +216,13 @@ public with sharing class VariablesDataTypesOperators {
      * @param c The third number.
      * @return The average of the three numbers.
      */
-    public static Double averageOfThreeNumbers(Integer a, Integer b, Integer c) {
+    public static Double averageOfThreeNumbers(Integer a, Integer b, Integer c){
+         Integer a = 3;
+         Integer b = 2;
+         Integer c = 4;
+         
+         Double averageOfThreeNumbers(a, b, c);
+         
         return null; // Replace null with the variable you used to store the result
     }
 
