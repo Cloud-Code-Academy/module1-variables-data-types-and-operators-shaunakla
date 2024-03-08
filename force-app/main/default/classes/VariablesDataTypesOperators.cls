@@ -345,7 +345,13 @@ public with sharing class VariablesDataTypesOperators {
      * @param numberOfHours The number of hours worked in a week.
      * @return A Decimal representing the monthly paycheck.
      */
-    public static Decimal calculateMonthlyPaycheck(Decimal hourlyRate, Double numberOfHours) {
+    public static Decimal calculateMonthlyPaycheck(Decimal hourlyRate, Double numberOfHours) { 
+
+        Integer hourlyRate = 20;
+        Integer numberOfHours = 40;
+        
+        double calculateMonthlyPaycheck(hourlyRate, numberOfHours);
+
         return null; // Replace null with the variable you used to store the result
     }
 
@@ -360,6 +366,14 @@ public with sharing class VariablesDataTypesOperators {
      * @return The total cost after applying the sales tax.
      */
     public static Decimal calculateTotalCost(Decimal pricePerUnit, Integer numberOfUnits, Decimal salesTaxRate) {
+        
+           Integer pricePerUnit = 30;
+           Integer numberOfUnits = 12;
+           Decimal salesTaxRate = 6.25;
+           
+           Double calculateTotalCost(pricePerUnit, numberOfUnits, salesTaxRate);
+
+
         return null; // Replace null with the variable you used to store the result
     }
 }
