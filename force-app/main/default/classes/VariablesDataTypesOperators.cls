@@ -104,7 +104,8 @@ public with sharing class VariablesDataTypesOperators {
      * @param num The number to check.
      * @return True if the number is even, False otherwise.
      */
-    public static Boolean isEven(Integer num) {
+    public static Boolean isEven(Integer num)
+     {
         return null; // Replace null with the variable you used to store the result
     }
 
@@ -116,7 +117,9 @@ public with sharing class VariablesDataTypesOperators {
      * @return true if the number is positive, false otherwise.
      */
     public static Boolean isPositive(Integer num) {
-        return null; // Replace null with the variable you used to store the result
+        //ifnum > = 0; null 
+
+        return num > = 0; // Replace null with the variable you used to store the result
     }
 
     /**
