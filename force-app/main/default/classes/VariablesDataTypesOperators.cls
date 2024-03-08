@@ -30,10 +30,15 @@ public with sharing class VariablesDataTypesOperators {
      * @param a The first number.
      * @param b The second number.
      * @return The sum of the two numbers, or null if either number is null.
-     */
-    public static Integer addition(Integer a, Integer b) {  
-        return null; // Replace null with the variable you used to store the result
-    }
+     */     
+
+    public static Integer addition(Integer a, Integer b){  
+        if(a != null && b != null){
+            return a + b;      
+        } else {
+            return null;
+        }
+    }   
 
     /**
      * Question 2
@@ -44,8 +49,14 @@ public with sharing class VariablesDataTypesOperators {
      * @return The difference between the two numbers.
      */
     public static Integer subtraction(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
-    }
+            if(a !=null && b !=null){
+                return a - b;
+            }   else {
+                return null;
+            }
+    }    
+       
+    
 
     /**
      * Performs multiplication of two numbers.
@@ -55,8 +66,14 @@ public with sharing class VariablesDataTypesOperators {
      * @return The product of the two numbers.
      */
     public static Integer multiplication(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
-    }
+        if (b !=0) {
+            return 0;
+        }    else {
+            return (a*b);
+            }
+        }
+         // Replace null with the variable you used to store the result
+    
 
     /**
      * Question 3
@@ -67,9 +84,15 @@ public with sharing class VariablesDataTypesOperators {
      * @param b The denominator.
      * @return The quotient of the division, or 0 if the denominator is zero.
      */
-    public static Decimal division(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
-    }
+    public static Decimal division(Integer a, Integer b) {  
+        if (b != 0) {
+            return 0;
+        }    else {
+            return (a/b);    
+            }   
+        }
+         // Replace null with the variable you used to store the result
+    
 
     /**
      * Question 4
@@ -100,7 +123,8 @@ public with sharing class VariablesDataTypesOperators {
      * Question 6
      * Concatenates two strings.
      * Example: concatenateStrings('Hello', 'World') should return 'HelloWorld'
-     * @param str1 The first string.
+     * @param str1 The first string. 
+     * string mystring = "Hello World"
      * @param str2 The second string.
      * @return The concatenated string.
      */
