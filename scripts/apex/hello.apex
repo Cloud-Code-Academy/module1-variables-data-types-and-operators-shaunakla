@@ -16,4 +16,7 @@ Integer c = 3;
 Integer d = 4;
 System.debug(c+d);
 
-
+        String hello = 'Hello';
+        String world = 'World';
+        String concatenated = hello + ' ' + world;
+        System.debug(concatenated);
