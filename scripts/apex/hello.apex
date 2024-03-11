@@ -8,3 +8,15 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+Integer a = 1;
+Integer b = 2;
+System.debug (a + b);
+
+Integer c = 3;
+Integer d = 4;
+System.debug(c+d);
+
+        String hello = 'Hello';
+        String world = 'World';
+        String concatenated = hello + ' ' + world;
+        System.debug(concatenated);
